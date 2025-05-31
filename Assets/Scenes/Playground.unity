@@ -987,6 +987,10 @@ PrefabInstance:
       propertyPath: ghost
       value: 
       objectReference: {fileID: 2020645582}
+    - target: {fileID: 5872133624704144031, guid: 9452a2689fb7846458309e49a677466b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -59.95
+      objectReference: {fileID: 0}
     - target: {fileID: 6171984897315268425, guid: 9452a2689fb7846458309e49a677466b, type: 3}
       propertyPath: m_Name
       value: Mechanics

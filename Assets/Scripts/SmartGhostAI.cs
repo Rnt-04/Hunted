@@ -111,10 +111,10 @@ public class SmartGhostAI : MonoBehaviour
         agent.speed = patrolSpeed;
         if (!agent.hasPath || agent.remainingDistance < 1f)
         {
-            Vector3 randomDirection = Random.insideUnitSphere * 25f;
+            Vector3 randomDirection = Random.insideUnitSphere * 50f;
             randomDirection += transform.position;
             NavMeshHit hit;
-            NavMesh.SamplePosition(randomDirection, out hit, 20f, NavMesh.AllAreas);
+            NavMesh.SamplePosition(randomDirection, out hit, 50f, NavMesh.AllAreas);
             agent.SetDestination(hit.position);
         }
     }
