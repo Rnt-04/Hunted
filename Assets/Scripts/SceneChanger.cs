@@ -17,7 +17,7 @@ public class SceneChanger : MonoBehaviour
 
     public void tutorial()
     {
-        SceneManager.LoadScene("Playground");
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void map1()
@@ -29,8 +29,8 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Docks");
     }
-    
-        public void map3()
+
+    public void map3()
     {
         SceneManager.LoadScene("Old Town");
     }
